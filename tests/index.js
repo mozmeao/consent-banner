@@ -12,7 +12,7 @@ function clickAcceptButton() {
 }
 
 function clickRejectButton() {
-    document.getElementById('moz-consent-banner-button-accept').click();
+    document.getElementById('moz-consent-banner-button-reject').click();
 }
 
 describe('MozConsentBanner', function () {
@@ -164,7 +164,7 @@ describe('MozConsentBanner', function () {
                 helper: CookieHelper
             });
 
-            document.getElementById('moz-consent-banner-button-accept').click();
+            clickAcceptButton();
 
             expect(obj.onChange).toHaveBeenCalled();
             expect(obj.result).toEqual({
@@ -191,7 +191,7 @@ describe('MozConsentBanner', function () {
                 helper: CookieHelper
             });
 
-            document.getElementById('moz-consent-banner-button-reject').click();
+            clickRejectButton();
 
             expect(obj.onChange).toHaveBeenCalled();
             expect(obj.result).toEqual({
@@ -207,7 +207,7 @@ describe('MozConsentBanner', function () {
                 helper: CookieHelper
             });
 
-            document.getElementById('moz-consent-banner-button-accept').click();
+            clickAcceptButton();
 
             expect(CookieHelper.setItem).toHaveBeenCalledWith(
                 'moz-consent-pref',
@@ -227,7 +227,7 @@ describe('MozConsentBanner', function () {
                 helper: CookieHelper
             });
 
-            document.getElementById('moz-consent-banner-button-reject').click();
+            clickRejectButton();
 
             expect(CookieHelper.setItem).toHaveBeenCalledWith(
                 'moz-consent-pref',
@@ -305,7 +305,7 @@ describe('MozConsentBanner', function () {
                 helper: CookieHelper
             });
 
-            document.getElementById('moz-consent-banner-button-accept').click();
+            clickAcceptButton();
 
             expect(CookieHelper.setItem).toHaveBeenCalledWith(
                 'my-custom-cookie',

@@ -4,7 +4,7 @@
 
 @import '~@mozilla-protocol/tokens/dist/index';
 
-$banner-color-bg: #fff;
+$banner-color-bg: $color-white;
 
 @keyframes a-slide-up {
     0% {

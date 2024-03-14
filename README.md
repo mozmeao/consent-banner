@@ -277,6 +277,11 @@ There's also a pre-compiled CSS file called `styles.css` in the package root whi
 
 [inter]: https://rsms.me/inter/
 
+### Browser support
+
+The banner is supported in all modern evergreen web browsers. It should also work in legacy browsers as far back as
+Internet Explorer 9.
+
 ## Local development
 
 1. Download this repo: `git clone https://github.com/mozmeao/consent-banner.git`
