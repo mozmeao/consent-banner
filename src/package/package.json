@@ -1,0 +1,29 @@
+{
+    "name": "@mozmeao/consent-banner",
+    "version": "0.1.0",
+    "description": "A cookies and analytics consent banner for Mozilla websites.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mozmeao/consent-banner.git"
+    },
+    "keywords": [
+        "mozilla",
+        "websites",
+        "cookies",
+        "analytics",
+        "banner"
+    ],
+    "author": "Mozilla",
+    "license": "MPL-2.0",
+    "bugs": {
+        "url": "https://github.com/mozmeao/consent-banner/issues"
+    },
+    "homepage": "https://github.com/mozmeao/consent-banner#readme",
+    "peerDependencies": {
+        "@mozmeao/cookie-helper": "^1.1.0"
+    }
+}

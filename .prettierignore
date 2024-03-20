@@ -1,0 +1,6 @@
+*.html
+*.md
+*.yml
+demo/dist/
+dist/
+tests/dist/
