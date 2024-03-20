@@ -32,7 +32,7 @@
     },
     "homepage": "https://github.com/mozmeao/consent-banner#readme",
     "dependencies": {
-        "@babel/core": "^7.23.9",
+        "@babel/core": "^7.24.1",
         "@babel/preset-env": "^7.23.9",
         "@mozilla-protocol/tokens": "^5.0.5",
         "@mozmeao/cookie-helper": "^1.1.0",
