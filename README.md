@@ -319,13 +319,12 @@ release to NPM, use the following steps:
 1. Before you start make sure the project's [CHANGELOG.md][changelog] is up to date.
 2. Update the package `version` number in [package.json][package.json] (use [Semantic Versioning][semver]
    to determine what the new version number should be).
-3. Update the package README [README.md][readme].
-4. Run `npm install` to update the `package-lock.json` file.
-5. Submit a pull request with your against the `main` branch. Once the changes have been approved and merged to main:
-6. Run `npm run build` to run the front-end tests and then build the final package. The package contents will be located in `./dist/`.
-7. Tag a new release. You can do this either using [Git tag][git-tag], or directly on the [GitHub website][releases].
+3. Run `npm install` to update the `package-lock.json` file.
+4. Submit a pull request with your against the `main` branch. Once the changes have been approved and merged to main:
+5. Run `npm run build` to run the front-end tests and then build the final package. The package contents will be located in `./dist/`.
+6. Tag a new release. You can do this either using [Git tag][git-tag], or directly on the [GitHub website][releases].
    (Example: `git tag -a v1.1.0`). If you used [Git tag][git-tag], push your tags to the repo using `git push --tags`
-8. If the build is successful and all tests pass, publish to NPM using `npm publish ./dist/`.
+7. If the build is successful and all tests pass, publish to NPM using `npm publish ./dist/`.
 
 [git-tag]: https://git-scm.com/book/en/v2/Git-Basics-Tagging
 [package.json]: https://github.com/mozmeao/consent-banner/blob/master/package.json
