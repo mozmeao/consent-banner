@@ -27,10 +27,10 @@ describe('MozConsentBanner', function () {
                     <p>Banner copy</p>
                     <div class="moz-consent-banner-controls">
                     <button type="button" id="moz-consent-banner-button-reject" class="moz-consent-banner-button-reject mzp-c-button">
-                        Reject
+                        Reject All Additional Cookies
                     </button>
                     <button type="button" id="moz-consent-banner-button-accept" class="moz-consent-banner-button-accept mzp-c-button">
-                        Accept
+                        Accept All Additional Cookies
                     </button>
                     <a href="https://www.mozilla.org/privacy/websites/cookie-settings/">Cookie settings</a>
                     </div>
