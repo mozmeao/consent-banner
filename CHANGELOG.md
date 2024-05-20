@@ -1,3 +1,7 @@
+# HEAD
+
+-   Update banner accept / reject HTML source order.
+
 # 1.0.0
 
 -   Update banner accept / reject button copy.

@@ -223,15 +223,16 @@ Here's an example of the recommended banner HTML markup:
         <h2  class="moz-consent-banner-heading">Help us improve your Mozilla experience</h2>
         <div class="moz-consent-banner-copy">
             <p>
-                In addition to cookies necessary for this site to function, we’d like your permission to set some additional
+                In addition to Cookies necessary for this site to function, we’d like your permission to set some additional
                 Cookies to better understand your browsing needs and improve your experience. Rest assured - we value your privacy.
             </p>
             <div class="moz-consent-banner-controls">
-                <button type="button" id="moz-consent-banner-button-reject" class="moz-consent-banner-button moz-consent-banner-button-reject">
-                    Reject All Additional Cookies
-                </button>
+
                 <button type="button" id="moz-consent-banner-button-accept" class="moz-consent-banner-button moz-consent-banner-button-accept">
                     Accept All Additional Cookies
+                </button>
+                <button type="button" id="moz-consent-banner-button-reject" class="moz-consent-banner-button moz-consent-banner-button-reject">
+                    Reject All Additional Cookies
                 </button>
                 <a href="https://www.mozilla.org/privacy/websites/cookie-settings/">
                     Cookie settings
