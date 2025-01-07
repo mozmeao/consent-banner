@@ -273,10 +273,12 @@ There's also a pre-compiled CSS file called `styles.css` in the package root whi
 ```
 
 > [!NOTE]
-> The banner CSS defines the [Inter][inter] web font as a `font-family`, falling back to `san-serif`. This package
-> does not include the Inter font directly, so the it must be loaded separately if you wish to use it.
+> The banner CSS uses the [Mozilla Type Family][mozilla-type-family] web font as a `font-family`, falling back
+> to [Inter][inter] and eventually `san-serif`. This package does not include the source fonts directly, so they
+> must be defined separetely using `@font-face` if you wish to render them.
 
 [inter]: https://rsms.me/inter/
+[mozilla-type-family]: https://github.com/mozilla/mozilla-type-family
 
 ### Browser support
 

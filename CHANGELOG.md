@@ -1,5 +1,6 @@
 # HEAD
 
+-   Update font to Mozilla Type Family (#63).
 -   Update banner accept / reject HTML source order.
 
 # 1.0.0

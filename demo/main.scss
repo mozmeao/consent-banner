@@ -2,15 +2,43 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at https://mozilla.org/MPL/2.0/.
 
+/* stylelint-disable value-keyword-case  */
+$primary-font: 'Mozilla Text', Inter, 'Helvetica Neue', Arial, X-LocaleSpecific,
+    sans-serif;
+$secondary-font: 'Mozilla Headline', Inter, 'Helvetica Neue', Arial,
+    X-LocaleSpecific, sans-serif;
+/* stylelint-enable */
+
+// Renders locally installed Mozilla Type Family fonts.
+@font-face {
+    font-display: swap;
+    font-family: 'Mozilla Text';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Mozilla Text BETA');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Mozilla Headline';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Mozilla Headline BETA');
+}
+
 body {
     margin: 0;
 }
 
 .demo-header {
-    font-family: sans-serif;
+    font-family: $primary-font;
     margin-top: 2em;
     padding: 10px;
     text-align: center;
+}
+
+.demo-header h1 {
+    font-family: $secondary-font;
 }
 
 .demo-header p {

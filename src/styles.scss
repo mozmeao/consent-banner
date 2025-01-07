@@ -6,6 +6,13 @@
 
 $banner-color-bg: $color-white;
 
+/* stylelint-disable value-keyword-case  */
+$primary-font: 'Mozilla Text', Inter, 'Helvetica Neue', Arial, X-LocaleSpecific,
+    sans-serif;
+$secondary-font: 'Mozilla Headline', Inter, 'Helvetica Neue', Arial,
+    X-LocaleSpecific, sans-serif;
+/* stylelint-enable */
+
 @keyframes a-slide-up {
     0% {
         opacity: 0;
@@ -24,7 +31,7 @@ $banner-color-bg: $color-white;
     background: $banner-color-bg;
     color: $color-black;
     display: none;
-    font-family: Inter, sans-serif;
+    font-family: $primary-font;
     text-size-adjust: 100%;
 
     &.is-visible {
@@ -40,7 +47,7 @@ $banner-color-bg: $color-white;
 
     .moz-consent-banner-heading {
         color: $color-black;
-        font-family: Inter, sans-serif;
+        font-family: $secondary-font;
         font-size: 1.5rem;
         font-size: 24px;
         margin: 0 0 $spacing-md;
@@ -86,7 +93,7 @@ $banner-color-bg: $color-white;
         color: $color-white;
         cursor: pointer;
         display: inline-block;
-        font-family: Inter, sans-serif;
+        font-family: $primary-font;
         font-size: 16px;
         font-size: 1rem;
         font-weight: bold;
