@@ -34,7 +34,7 @@
     "dependencies": {
         "@babel/core": "^7.24.3",
         "@babel/preset-env": "^7.23.9",
-        "@mozilla-protocol/tokens": "^5.0.5",
+        "@mozilla-protocol/tokens": "^6.0.0",
         "@mozmeao/cookie-helper": "^1.1.0",
         "babel-loader": "^10.0.0",
         "clean-webpack-plugin": "^4.0.0",
