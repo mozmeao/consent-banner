@@ -54,7 +54,7 @@
         "jasmine-browser-runner": "^3.0.0",
         "jasmine-core": "^5.1.2",
         "prettier": "^3.2.4",
-        "sinon": "^19.0.2",
+        "sinon": "^20.0.0",
         "stylelint": "^16.2.1",
         "stylelint-config-standard-scss": "^14.0.0",
         "webpack-dev-server": "^5.0.4"
