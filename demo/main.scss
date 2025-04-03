@@ -2,15 +2,10 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at https://mozilla.org/MPL/2.0/.
 
-/* stylelint-disable value-keyword-case */
+@import '~@mozilla-protocol/tokens/dist/index';
 
-/* prettier-ignore */
-$primary-font: 'Mozilla Text', Inter, 'Helvetica Neue', Arial, X-LocaleSpecific, sans-serif;
-
-/* prettier-ignore */
-$secondary-font: 'Mozilla Headline', Inter, 'Helvetica Neue', Arial, X-LocaleSpecific, sans-serif;
-
-/* stylelint-enable */
+$primary-font: $font-stack-mozilla-text;
+$secondary-font: $font-stack-mozilla-headline;
 
 // Renders locally installed Mozilla Type Family fonts.
 @font-face {

@@ -5,16 +5,8 @@
 @import '~@mozilla-protocol/tokens/dist/index';
 
 $banner-color-bg: $color-white;
-
-/* stylelint-disable value-keyword-case */
-
-/* prettier-ignore */
-$primary-font: 'Mozilla Text', Inter, 'Helvetica Neue', Arial, X-LocaleSpecific, sans-serif;
-
-/* prettier-ignore */
-$secondary-font: 'Mozilla Headline', Inter, 'Helvetica Neue', Arial, X-LocaleSpecific, sans-serif;
-
-/* stylelint-enable */
+$primary-font: $font-stack-mozilla-text;
+$secondary-font: $font-stack-mozilla-headline;
 
 @keyframes a-slide-up {
     0% {
