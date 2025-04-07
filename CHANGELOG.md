@@ -1,3 +1,7 @@
+# HEAD
+
+-   Add firefox.com as known host to getHostName() (#84)
+
 # 1.1.0
 
 -   Update font to Mozilla Type Family (#63).

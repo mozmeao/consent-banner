@@ -403,5 +403,13 @@ describe('MozConsentBanner', function () {
             );
             expect(result3).toEqual('.allizom.org');
         });
+
+        it('should return ".firefox.com" for firefox.com subdomains', function () {
+            const result1 = MozConsentBanner.getHostName('www.firefox.com');
+            expect(result1).toEqual('.firefox.com');
+
+            const result2 = MozConsentBanner.getHostName('relay.firefox.com');
+            expect(result2).toEqual('.firefox.com');
+        });
     });
 });

@@ -65,6 +65,8 @@ MozConsentBanner.getConsentCookie = () => {
  * Returns the domain to set for the consent cookie. When in production
  * we want to specify '.mozilla.org' instead of 'www.mozilla.org',
  * so that multiple Mozilla sub domains can use the same consent cookie.
+ * The same applies for '.firefox.com' domains. Note that this does NOT
+ * apply cross-origin.
  * @returns {domain} string or null.
  */
 MozConsentBanner.getHostName = (hostname) => {
@@ -78,6 +80,10 @@ MozConsentBanner.getHostName = (hostname) => {
 
     if (url.indexOf('.mozilla.org') !== -1) {
         domain = '.mozilla.org';
+    }
+
+    if (url.indexOf('.firefox.com') !== -1) {
+        domain = '.firefox.com';
     }
 
     return domain;
