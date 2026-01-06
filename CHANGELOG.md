@@ -1,3 +1,7 @@
+# 1.1.1
+
+-   Dependency updates.
+
 # 1.1.0
 
 -   Update font to Mozilla Type Family (#63).
